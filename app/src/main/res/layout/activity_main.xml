@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/login"
+       android:textColor="#FAF8F8"
+       android:textSize="40sp"
+       android:textStyle="bold"
+       android:layout_marginBottom="40dp"/>
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+       android:ems="12"
+       android:hint="@string/email"
+       android:inputType="textEmailAddress"
+       android:minHeight="48dp"
+       android:textColorHint="#0C0C0C" />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:drawableStart="@drawable/ic_baseline_lock_24"
+       android:ems="12"
+       android:hint="@string/pass"
+       android:inputType="textPassword"
+       android:minHeight="48dp"
+       android:textColorHint="#121111" />
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:text="@string/enter"
+       android:textColor="#FBF9F9"
+       android:textStyle="bold"
+       android:backgroundTint="#0C0C0C"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="40dp"
+       android:text="@string/fp"
+       android:textStyle="bold"
+       android:textColor="#111212"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:text="@string/again"
+       android:textStyle="bold"
+       android:textColor="#F6F7F8"
+       />
+
+</LinearLayout>

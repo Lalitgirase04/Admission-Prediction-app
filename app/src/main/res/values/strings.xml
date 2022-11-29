@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Diceroller</string>
+    <string name="Icon">It is an icon</string>
+    <string name="Desc">It is an Icon of Android Development</string>
+    <string name="email">E-Mail Id</string>
+    <string name="pass">Password</string>
+    <string name="login">Log In</string>
+    <string name="enter">Enter</string>
+    <string name="again">Or Create Account </string>
+    <string name="fp">Forgot password?</string>
+    <string name="account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="mail">Email-Id</string>
+    <string name="pw">Password</string>
+    <string name="rw">Confirm Password</string>
+</resources>
